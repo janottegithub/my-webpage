@@ -1,0 +1,58 @@
+*{
+    color: white;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.span-col-2{grid-column: span 2 / auto;}
+
+img{
+height: 650px;
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+h1{
+    position: relative;
+    left: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 80px;
+}
+
+#ul{
+    display:inline-flex; 
+}
+
+ul{
+    position: relative;
+    top: 25%;
+    list-style-type: none;
+}
+
+
+li{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 30px;
+}
+
+ul li a {
+text-decoration: none;
+font-size: 25px;
+margin-left: 40px;
+font-family: 'Lato', sans-serif;
+color: rgb(218, 218, 218,);
+}
+
+ul li a:hover  {
+color: #CDCDCD;
+}
+

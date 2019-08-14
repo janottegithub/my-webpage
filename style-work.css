@@ -1,0 +1,26 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.span-col-2{grid-column: span 2 / auto;}
+.span-col-4{grid-column: span 4 / auto;}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2%;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.item{
+    padding: 1%;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:rgba(49, 49, 49, );
+    width:20%;
+}
