@@ -156,14 +156,19 @@ p {
   height: 100%;
   padding-top: 193px;
   padding-bottom: 237px;
-  background-image: url('../images/14242392_10209088298156146_7699749907383921802_o.jpg'), url('../images/blur-street.jpg');
-  background-position: 0px 0px, 0px 0px;
-  background-size: cover, cover;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
   color: #fff;
   text-align: center;
 }
 
 .footer-section {
+  position: fixed;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
   padding-top: 38px;
   padding-bottom: 34px;
   background-color: #2f3442;
@@ -228,6 +233,19 @@ p {
 .slider-nav {
   height: 40px;
   font-size: 9px;
+}
+
+.body {
+  background-color: #000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.56)), to(rgba(17, 17, 17, 0.56))), url('../images/me.jpg');
+  background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.56), rgba(17, 17, 17, 0.56)), url('../images/me.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+}
+
+.heading {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-weight: 700;
 }
 
 @media (max-width: 991px) {
