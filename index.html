@@ -435,10 +435,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<div class="formbox">
 								<div class="row">
 									
-									<form method="post" action="
-									
-									<?php
-
+									<form method="post" action=<?php
 if(isset($_POST['submit'])){
 $name = $_POST['name'];
 $subject = $_POST['subject'];
@@ -459,7 +456,7 @@ mail($mailTo, $subject, $txt, $headers);
 
 ?>
 									
-									">
+									>
 										<div class="row gtr-uniform gtr-50">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 											<div class="col-6 col-12-xsmall"><input type="text" name="subject" id="subject" placeholder="subject" /></div>
