@@ -1,0 +1,453 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #cccccc;
+}
+
+/*########################navbar########################*/
+
+.navbar{
+    border-top:6px solid #1B998B;
+    background-color: #4D4E55
+    ;
+    padding: 0;
+    margin: 0 !important;
+}
+
+.navbar .navbar-brand{
+    display: block;
+    background-color: #1B998B;
+    padding: 15px 40px;
+    font-style: italic;
+    color: #f5f3f5
+}
+
+.navbar .nav-link{
+    color: #1B998B;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+.navbar .nav-link:hover{
+    color: #f5f3f5;
+    background-color: #8D8E92
+    ;
+}
+
+/*########################viewport########################*/
+.viewport-80{
+    min-height: 80vh;
+}
+
+
+
+
+/*########################banner########################*/
+
+#banner{
+background: url(images/background-banner.jpg);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+#banner .banner-title{
+    font-style: italic;
+}
+
+#banner .banner-link{
+    text-decoration-color:none;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: 2px solid #1B998B;
+    background: transparent;
+    border-radius: 0;
+    color: #1B998B;
+}
+
+#banner .banner-link:hover{
+border: 2px solid #1B998B;
+background-color: #1B998B;
+color: black;
+}
+
+
+.banner-link{
+    color: #1B998B;
+
+}
+
+/*###banner after######*/
+
+#banner::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(67, 80,95);
+    z-index: -1;
+    bottom: -60px;
+    transform-origin: left bottom;
+    transform: skewY(3deg);
+}
+
+/*########################banner icons########################*/
+
+#banner-icons{
+    margin-top: -40px;
+
+}
+
+#banner-icons ul{
+    list-style-type: none;
+}
+
+#banner-icons li{
+padding: 10px;
+margin: 0 3px;
+background-color: rgba(0,0,0,0.7);
+}
+
+#banner-icons .fa {
+    font-size: 32px;
+}
+
+#banner-icons a {
+ color: #1B998B;
+ text-decoration: none;
+ display: block;
+}
+
+#banner-icons a:hover {
+color: #82C7BF
+;  
+   }
+/*########################Title########################*/
+.title .fa {
+ font-size: 60px;
+ color: #262730;
+ margin-top: 20px;
+
+}
+.title .title-text{
+    padding-left: 15px;
+    border-left: 3px solid #5C5D74;
+
+}
+.title-text{
+    margin-top: 50px;
+
+}
+
+
+/*########################services Shapes########################*/
+#services .service-icon{
+    font-size: 60px;
+    color: black;
+    padding:60px;
+    background-color: #B1F0E2
+    ;
+}
+#services .service-icon:hover{
+    font-size: 60px;
+    color: white;
+    padding:60px;
+    background-color: #1B998B;
+}
+
+#services .service-icon-1{
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+#services .service-icon-2{
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+#services .service-icon-3{
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+#services .service-icon-4{
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+/*########################Contact########################*/
+
+#contact{
+    background: url(images/background-filler.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    }
+    
+#contact .form-control{
+    background: transparent;
+    border: none;
+    font-size: 2.5em;
+    border-radius: 0;
+    border-bottom: 3px solid white;
+}
+
+#contact .form-btn{
+    font-size: 2.5em;
+    border-radius: 0;
+    background-color: transparent;
+    color: #1B998B;
+    border: 3px solid white;
+}
+
+#contact .form-btn:hover{
+background-color: #1B998B;
+color: white;
+border: 3px solid #1B998B;
+}
+
+#contact input[type='text']::-webkit-input-placeholder{
+ color: white;
+}
+/*########################work########################*/
+
+#work .work-title-text{
+padding-right: 15px;  
+border-right: 3px solid #1B998B;
+}
+
+#work .fas {
+padding-left: 20px;
+size: 60px;
+}
+
+#work button{
+    font-size: 20px;
+    padding: 15px 25px;
+    margin: 5px;
+    background-color: #242a33;
+    border-radius: 0;
+    color: #1B998B;
+}
+
+#work button:hover{
+    background-color: #1B998B;
+    color:  #242a33;   
+}
+/*########################about########################*/
+
+#about-us{
+    background: url(images/group-of-people-using-laptops-1560932.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+    }
+
+#about-us a {
+    text-decoration: none;
+    color: #ced0ce;
+}
+
+#about-us .card-header{
+   background-color: #1B998B; 
+}
+
+#about-us .fa-child{
+    color: #1B998B;
+    font-size: 2rem;
+}
+/*########################current-projects########################*/
+
+#current-projects .img-container{
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+
+#current-projects .img-container:hover img{
+opacity: 0.5;
+}
+
+#current-projects .img-icons{
+    position: absolute;
+    bottom: -10em;
+    padding: 40px 0;
+    width: 100%;
+    background: linear-gradient(rgba(206,208,206,0.7),rgba(206,208,206,0.7));
+    transition: bottom 1.8s;
+}
+
+#current-projects .img-container:hover .img-icons{
+    bottom: 0px;
+}
+
+#current-projects .fa {
+    color:#1B998B;
+    font-size: 40px;
+    margin: 0 10px;
+
+}
+
+#current-projects .fa:hover {
+color: #242a33;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+/*########################numbers########################*/
+
+
+#numbers .num {
+    padding: 30px 0px;
+    background: #242a33;
+    color: #f5f3f5;
+}
+
+#numbers .num:hover{
+background: rgba(0,0,0,0.6);
+}
+
+#numbers .num-item {
+  font-size: 30px;
+}
+
+#numbers .fa{
+font-size: 50px;
+}
+
+/*########################Team section########################*/
+
+#team .card img {
+    margin-top: -50px;
+}
+
+#team .card hr {
+background-color: #1B998B;
+}
+
+#team .card .fab {
+color: #1B998B;
+font-size: 30px;
+}
+
+#team .card .fab:hover {
+ color: #242a33; 
+
+    }
+        
+
+#progress-bars{
+    background: url(images/group-of-people-using-laptops-1560932.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+.primary-color-background{
+    background-color: #1B998B;
+}
+
+/*########################pricing########################*/
+
+#pricing .price-num{
+background-color: #ced0ce;
+padding: 10px 0;
+position: relative;
+margin: 15px;
+display: flex;
+justify-content: center;
+}
+
+#pricing .money{
+    position: absolute;
+    top: 32%;
+    left: 22%;
+    font-size: 28px;
+}
+
+#pricing .money-num{
+  font-size: 70px;  
+}
+
+#pricing .money-end{
+    font-size: 25px;
+}
+
+#pricing .card-text .price-num {
+   background-color: red; 
+}
+
+#pricing .price-num::after{
+    content: "";
+    position:absolute;
+    bottom: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #ced0ce;
+}
+
+#pricing .list-group-item{
+    position: relative;
+    font-size: 12px;
+}
+
+#pricing .first-list{
+    border-top: none!important;
+}
+
+#pricing .price-btn{
+    border:2px solid #1B998B;
+    margin-bottom: -20px;
+    text-decoration: none;
+    color: #1B998B;
+    background-color: #fff ;
+}
+
+#pricing .price-btn:hover{
+    background-color: #242a33;
+    border: 2px solid #242a33;
+}
+
+#pricing .premium .price-num{
+    background-color: #1B998B;
+} 
+
+#pricing .premium .price-num::after{
+    border-top: 20px solid #1B998B;
+}
+
+/*########################pricing########################*/
+
+#quotes{
+    background: url(images/group-of-people-using-laptops-1560932.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color:#f5f3f5;
+}
+
+#quotes .fa-quote-left {
+font-size: 40px;
+color: #1B998B;
+}
+
+#quotes img{
+    max-width: 250px;
+}
